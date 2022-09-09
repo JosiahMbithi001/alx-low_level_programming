@@ -1,2 +1,1 @@
-alx-low_level_programming
-C_low-level_programming
+Today is The Day The Lord Has Made
