@@ -1,12 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
- * main - Entry point
- *
- *
+/**
+ * main - entry point
  *
  * Return: Always 0
- *
  */
 
 
