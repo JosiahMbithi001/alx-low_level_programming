@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>>
-#include <time.h>
 
 /**
- * main - entry point
- *
- * Return: Always 0
- */
+* main - entry point
+*
+*Return: Always 0 (success)
+*/
 int main(void)
 {
 	int i, e, g;
@@ -20,25 +18,27 @@ int main(void)
 		i = 48;
 		while (i < 58)
 		{
-		 	g = 48;																	while (g < 58)																{
-																					if (e != i && e != g && i != g && e < i && i < g)											{
-																						putchar(e);
+			g = 48;
+			while (g < 58)
+			{
+				if (e != i && e != g && i != g && e < i && i < g)
+				{
+					putchar(e);
 					putchar(i);
 					putchar(g);
 					if (i == 56 && e == 55 && g == 57)
 					{
 						break;
 					}
-					putchar(',')
-					putchar(' ')
+					putchar(',');
+					putchar(' ');
 				}
 				g++;
 			}
 			i++;
 		}
 		e++;
+	}
 	putchar('\n');
 	return (0);
 }
-
-

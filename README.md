@@ -1,1 +1,1 @@
-Today is The Day The Lord Has Made
+Yes. God is my Good God
