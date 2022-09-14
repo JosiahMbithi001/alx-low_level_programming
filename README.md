@@ -1,1 +1,1 @@
-Yes. God is my Good God
+Yes He is My Good God, not only Today but yesterday today & tomorrow
