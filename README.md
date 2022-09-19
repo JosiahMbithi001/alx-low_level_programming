@@ -1,1 +1,1 @@
-Aha. Didn't I tell You.
+GOD is So Good.
