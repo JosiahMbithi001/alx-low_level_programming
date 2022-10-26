@@ -1,13 +1,20 @@
 #include "lists.h"
 
 /**
- * list_len_recursion - A function that gets the number of nodes of linked list
- * @h: head of linked list
- * Return: number of nodes as size_t
+ * list-len - A Function that returns the number of elements in a Linked List
+ * @h: List to be transversed
+ * Return: Number of Elements
  */
 
-size_t list_len_recursion(const list_t *h)
+size_t list_len(const list_t *h)
 {
-	if (h != NULL)
-		return (1 + list_len_recursion(h->next));
+		unsigned int num = 0;
+
+		while (h != NULL)
+			{
+				h = h->next;
+				num++;
+			}
+	return (num);
 }
+
